@@ -11,6 +11,7 @@ public class LoginController {
 
     @GetMapping("/")
     public String LoginController(){
+        System.out.println("my is mcd");
         return "login";
     }
 }
